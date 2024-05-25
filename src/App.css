@@ -1,0 +1,51 @@
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+
+#root {
+  height: 100%
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #568059; /* Background color */
+  color: rgb(171, 227, 195);
+  text-align: center;
+}
+
+.App-header {
+  max-width: 600px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3em;
+}
+
+p {
+  margin: 10px 0 0;
+  font-size: 1.5em;
+}
+
+.icon-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.icon {
+  color: rgb(171, 227, 195);
+  font-size: 2em;
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #55d1fa; /* Example hover color */
+}
