@@ -1,5 +1,6 @@
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './App.css';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope, faFileAlt } from '@fortawesome/free-solid-svg-icons';
